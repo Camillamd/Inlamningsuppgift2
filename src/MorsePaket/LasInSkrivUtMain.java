@@ -17,7 +17,7 @@ public class LasInSkrivUtMain {
         String valTva = "Morse";
         boolean detBlevFel = false;
 
-        // från bokstav till morse
+        // från bokstav till morse.
 
         if (val.equalsIgnoreCase(valEtt)) {
             System.out.println("Skriv in din text!");

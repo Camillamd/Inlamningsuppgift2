@@ -46,6 +46,7 @@ public class BokstavTillMorseKonverterare {
         if (morse == null) {
             throw new IllegalArgumentException();
         }
+
         return morse;
     }
 

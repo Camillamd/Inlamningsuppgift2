@@ -43,7 +43,7 @@ public class MorseTillBokstavKonverterare {
     }
 
 
-    public String hamtaMorseSomBokstav(String inMorse) {  // används i main
+    public String hamtaMorseSomBokstav(String inMorse) {
         String bokstav = morseTillBokstavMap.get(inMorse);
         if (bokstav == null) {
             throw new IllegalArgumentException();
