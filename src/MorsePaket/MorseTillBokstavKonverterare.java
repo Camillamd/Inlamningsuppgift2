@@ -39,10 +39,6 @@ public class MorseTillBokstavKonverterare {
         morseTillBokstavMap.put("-..-", "X");
         morseTillBokstavMap.put("-.--", "Y");
         morseTillBokstavMap.put("--..", "Z");
-        morseTillBokstavMap.put(".-.-.-", ".");
-        morseTillBokstavMap.put("--..--", ",");
-        morseTillBokstavMap.put("..--..", "?");
-        morseTillBokstavMap.put("-.-.--", "!");
         morseTillBokstavMap.put("/", " ");
     }
 

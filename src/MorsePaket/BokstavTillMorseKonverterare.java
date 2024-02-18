@@ -36,10 +36,6 @@ public class BokstavTillMorseKonverterare {
         morseMap.put("X", "-..-");
         morseMap.put("Y", "-.--");
         morseMap.put("Z", "--..");
-        morseMap.put(".", ".-.-.-");
-        morseMap.put(",", "--..--");
-        morseMap.put("?", "..--..");
-        morseMap.put("!", "-.-.--");
         morseMap.put(" ", "/");
     }
 

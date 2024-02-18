@@ -28,7 +28,7 @@ public class LasInSkrivUtMain {
             int antalBokstaver = inMatning.length();
             char tecken;
             String helaMorse = "";
-            try {   // om man skriver in siffror
+            try {   // om man skriver in något ogiltigt tecken = som inte finns i hashmap
 
                 while (rakna < antalBokstaver) {
                     tecken = inMatning.charAt(bokstavsNummer);
